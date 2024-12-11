@@ -1,0 +1,106 @@
+bump_version: null
+lint:
+  files_exist:
+  - .github/workflows/branch.yml
+  - .github/workflows/ci.yml
+  - .github/workflows/linting_comment.yml
+  - .github/workflows/linting.yml
+  - conf/igenomes.config
+  - conf/igenomes_ignored.config
+  - .editorconfig
+  - .prettierignore
+  - .prettierrc.yml
+  - CITATIONS.md
+  - assets/multiqc_config.yml
+  - CHANGELOG.md
+  - LICENSE
+  - assets/email_template.html
+  - assets/sendmail_template.txt
+  - assets/email_template.txt
+  - docs/output.md
+  - docs/README.md
+  - docs/usage.md
+  - .github/workflows/branch.yml
+  - .github/workflows/ci.yml
+  - .github/workflows/linting_comment.yml
+  - .github/workflows/linting.yml
+  - conf/igenomes.config
+  - conf/igenomes_ignored.config
+  - .editorconfig
+  - .prettierignore
+  - .prettierrc.yml
+  - CITATIONS.md
+  - assets/multiqc_config.yml
+  - CHANGELOG.md
+  - LICENSE
+  - assets/email_template.html
+  - assets/sendmail_template.txt
+  - assets/email_template.txt
+  - docs/output.md
+  - docs/README.md
+  - docs/usage.md
+  - CODE_OF_CONDUCT.md
+  - assets/nf-core-testconfigloading_logo_light.png
+  - docs/images/nf-core-testconfigloading_logo_light.png
+  - docs/images/nf-core-testconfigloading_logo_dark.png
+  - .github/ISSUE_TEMPLATE/config.yml
+  - .github/workflows/awstest.yml
+  - .github/workflows/awsfulltest.yml
+  files_unchanged:
+  - .github/CONTRIBUTING.md
+  - .github/CONTRIBUTING.md
+  - assets/sendmail_template.txt
+  - LICENSE
+  - .prettierignore
+  - .prettierignore
+  - .prettierignore
+  - .github/CONTRIBUTING.md
+  - .github/CONTRIBUTING.md
+  - assets/sendmail_template.txt
+  - LICENSE
+  - .prettierignore
+  - .prettierignore
+  - .prettierignore
+  - CODE_OF_CONDUCT.md
+  - assets/nf-core-testconfigloading_logo_light.png
+  - docs/images/nf-core-testconfigloading_logo_light.png
+  - docs/images/nf-core-testconfigloading_logo_dark.png
+  - .github/ISSUE_TEMPLATE/bug_report.yml
+  multiqc_config: false
+  nextflow_config:
+  - manifest.name
+  - manifest.homePage
+  - validation.help.beforeText
+  - validation.help.afterText
+  - validation.summary.beforeText
+  - validation.summary.afterText
+  readme:
+  - nextflow_badge
+nf_core_version: 3.0.2
+org_path: null
+repository_type: pipeline
+template:
+  author: na
+  description: na
+  force: true
+  is_nfcore: false
+  name: testconfigloading
+  org: FriederikeHanssen
+  outdir: .
+  skip_features:
+  - ci
+  - igenomes
+  - github_badges
+  - code_linters
+  - citations
+  - codespaces
+  - multiqc
+  - changelog
+  - license
+  - email
+  - adaptivecard
+  - slackreport
+  - documentation
+  - seqera_platform
+  version: 1.0.0dev
+update: null
